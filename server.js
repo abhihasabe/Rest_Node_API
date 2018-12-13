@@ -12,7 +12,7 @@ var mysqlConnection = mysql.createConnection({
     password: 'Sarita@123',
     database: 'dvaspgro_bakery_managment'
 });
-
+alert("Welcome");
 mysqlConnection.connect((err)=>{
     if(!err)
     console.log('DB connetion succeded');
