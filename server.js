@@ -7,7 +7,7 @@ var readline= require("readline");
 
 app.use(bodyparser.json());
 var mysqlConnection = mysql.createConnection({
-    host: '192.185.128.203',
+    host: 'http://192.185.128.203:2082/',
     user: 'dvaspgro',
     password: 'Sarita@123',
     database: 'dvaspgro_bakery_managment'
